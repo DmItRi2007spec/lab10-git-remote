@@ -1,3 +1,4 @@
+
 <?php
 require __DIR__ . '/db.php';
 $id = (int)($_GET['id'] ?? 0);
