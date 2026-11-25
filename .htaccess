@@ -1,0 +1,10 @@
+# Основные настройки
+DirectoryIndex index.php index.html
+Options -Indexes
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.html
+
+# Закрыть доступ к файлу с паролями
+<Files "config.php">
+  Require all denied
+</Files>
